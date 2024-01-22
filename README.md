@@ -68,11 +68,11 @@ if (ObjC.available) {
 Below I will describe some functions that can be used for jailbreak verification, these functions were found in some community projects or scripts. Whenever I find a way to check jailbreak I will be updating below.
 
 
-- access:
-- fopen:
-- open:
-- stat
-- stat64
+- access: explaing about function
+- fopen: explaing about function
+- open: explaing about function
+- stat: explaing about function
+- stat64: explaing about function
 ...
 
 
