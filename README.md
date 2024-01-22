@@ -23,11 +23,11 @@ Obs: recomendo uma implementacao propria dos scripts de bypass baseado no ambien
 
 ### Tips for frida use
 
-#### Difference between Java.perform and Java.available
+#### Difference between Java.perform and Java.available // reference: https://github.com/frida/frida/issues/611
 
 "Java.available is to check if you are actually running on Android. For example, you could create 1 SSL bypassing script that first checks if you're on Android or iOS, and act accordingly.
 
-Java.perform is used to attach that function to the current thread, and, coincidentally, will crash if Java is not available. So functionality wise, this would be the same, I guess:"
+Java.perform is used to attach that function to the current thread, and, coincidentally, will crash if Java is not available. So functionality wise, this would be the same, I guess:" 
 
 
     if(Java.isAvailable)
