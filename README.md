@@ -24,6 +24,17 @@ a personal repository for help pentesting in mobile assets android/ios with frid
 
 ### Android template 
 
+```
+Java.perform(function (){
+  // ...
+});
+```
 
 
-### IOS template
+### IOS template (objc)
+
+```
+if (ObjC.available) {
+  //check if objc is available
+}
+```
