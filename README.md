@@ -62,3 +62,19 @@ if (ObjC.available) {
   //check if objc is available
 }
 ```
+
+### IOS Jailbreak Functions (to-do)
+
+Below I will describe some functions that can be used for jailbreak verification, these functions were found in some community projects or scripts. Whenever I find a way to check jailbreak I will be updating below.
+
+
+- access:
+- fopen:
+- open:
+- stat
+- stat64
+...
+
+
+
+  
