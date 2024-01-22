@@ -29,7 +29,7 @@ Obs: recomendo uma implementacao propria dos scripts de bypass baseado no ambien
 
 Java.perform is used to attach that function to the current thread, and, coincidentally, will crash if Java is not available. So functionality wise, this would be the same, I guess:"
 
-<code>
+```
 if(Java.isAvailable)
 {
 Java.perform(function(){// ...});
@@ -43,7 +43,7 @@ catch(e)
 {
 
 }
-</code>
+```
 
 ### Android template 
 
